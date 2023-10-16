@@ -1,0 +1,41 @@
+img:hover{
+    opacity:0.6;
+    transition:0.5s;
+  }
+  
+  button:hover{
+    transition:0.5s;
+  }
+
+
+  .labial-text {
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  .rainbow-text {
+    background-image: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-animation 3s linear infinite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes rainbow-animation {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  
+  .h2-text {
+    font-size: 2em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-left: 5%;
+  }
+  
+  
